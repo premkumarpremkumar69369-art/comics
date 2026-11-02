@@ -1,0 +1,273 @@
+
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMICS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .text-link{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light  bg-secondary  border-bottom">
+    <div class="container-fluid d-block">
+        <ul class="navbar-nav justify-content-between">
+            <li class="nav-item border border-dark border-end ms-5 text-start justify-content-start align-items-start">
+                <a class="nav-link text-center text-light fw-bold" aria-current="page" href="#">Log In</a>
+            </li>
+            <li class="nav-item border border-dark">
+                <a class="nav-link  text-center text-light fw-bold" href="cart.html">Sign In</a>
+            </li>
+            <div class="logo-image text-center">
+                <img src="logo.jpg" class="img-fluid rounded" style="height:60px;" alt="image">
+            </div>
+            <li class="nav-item border border-end border-dark">
+                <a class="nav-link text-center text-light fw-bold" href="cart.html">🛒</a>
+            </li>
+            <li class="nav-item border border-dark">
+                <a class="nav-link text-center text-light fw-bold" href="#">🔎︎</a>
+            </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center border-top mt-1" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 gap-5 ">
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="index.html">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="comics.html">COMICS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="character.html">CHARACTERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">GAMES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="#">MOVIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light fw-bold" href="">TV SHOWS</a>
+                </li>
+               
+                <a class="btn bg-success mt-1 text-light fw-bold" href="comics.html">SHOP NOW</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <h1 class="container-title text-center">CHARACTERS</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active ms-5 d-flex gap-5 mt-3 mb-5 text-center ">
+                <div class="carousel-image">
+                    <img src="peacemaker.jpg" class="img-fluid" style="width: 200px; height: 200px; " alt="image">
+                    <h1 class="image-title">PEACEMAKER</h1>
+                </div>
+                <div class="carousel-image">
+                    <img src="vigilante.jpg" class="img-fluid" style="width: 200px; height: 200px;" alt="image">
+                    <h1 class="image-title">VIGILANTE</h1>
+                </div>
+                <div class="carousel-image">
+                    <img src="morphus.jpg" class="img-fluid" style="width: 200px; height: 200px;" alt="image">
+                    <h1 class="image-title">MORPHEUS</h1>
+                </div>
+                <div class="carousel-image">
+                    <img src="superman.jpg" class="" style="width: 200px; height: 200px;" alt="image">
+                    <h1 class="image-title">SUPERMAN</h1>
+                </div>
+                <div class="carousel-image">
+                    <img src="green.jpg" class="" style="width: 200px; height: 200px;" alt="image">
+                    <h1 class="image-title">GREEN LANTERN</h1>
+                </div>
+               
+            </div>
+            
+            <button class="carousel-control-prev bg-warning rounded-circle" style="height:50px; width:50px; top:100px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next bg-warning rounded-circle" style="height:50px; width:50px; top:100px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+         
+        </div>
+    </div>
+</div>
+<div class="page-header">
+    <h1 class="page-title">COMICS CHARACTER LIST</h1>
+</div>
+<div class="container-fluid mt-5">
+    <div class="headings d-flex">
+        <div class="image-head d-flex gap-2 w-100 mt-1 mb-1 border-bottom border-dark">
+            <p class="text-muted " href="#">🔎︎ SEARCH</p>
+           
+        </div>
+        <select class="btn text-light bg-primary " aria-label="Default select example" style="height: 40px;">
+            <option selected>☰Filters</option>
+            <option value="1" style="background-color: white; color:black;">AVENGERS</option>
+            <option value="2" style="background-color: white; color:black;">SPIDERMAN</option>
+            <option value="3" style="background-color: white; color:black;">FALCON</option>
+        </select>
+    </div>
+    <div class="item-sections d-flex ">
+        <div class="item-count d-flex gap-2 w-100">
+            <p class="item-num text-muted">2574 RESULTS</p>
+        </div>
+        <select class="sort-section" >
+            <option selected>SORT BY A-Z</option>
+            <option value="1">A-Z</option>
+            <option value="2">Z-A</option>  
+        </select>
+    </div>
+    <div class="container-fliud ">
+        <div class="row gap-1 text-center mt-5 m-auto justify-content-center">
+            <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+                <div class="image-heading">
+                    <img src="prot.jpg" class="img-fluid" style="width:350px;height:220px;" alt="image">
+                </div>
+                <div class="card-content text-light">
+                    <h1 class="card-title mb-5 mt-5">SPIDER-MAN</h1>
+                    <p class="card-text">THE PROTAGONIST</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 bg-dark " style="height: 400px;">
+            <div class="image-heading">
+                <img src="anta.jpg" class="img-fluid" style="width:350px;height:220px;" alt="image">
+            </div>
+            <div class="card-content text-light mt-5">
+                <h1 class="card-title">JOKER</h1>
+                <p class="card-text">THE ANTAGONIST</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="ment.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">PROFESSOR X</h1>
+                <p class="card-text">THE MENTOR</p>
+            </div>
+        </div>
+       <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="anti.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">DEADPOOL</h1>
+                <p class="card-text">THE ANTI-HERO</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="robin.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">ROBIN</h1>
+                <p class="card-text">PARTNER</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fliud">
+        <div class="row gap-1 text-center m-auto border-top justify-content-center">
+            <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+                <div class="image-heading">
+                    <img src="pant.jpg" class="img-fluid" style="width:350px;height:220px;" alt="image">
+                </div>
+                <div class="card-content text-light">
+                    <h1 class="card-title mb-5 mt-5">BLACK PANTHER</h1>
+                    <p class="card-text">T'CHALLA</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-2 bg-dark " style="height: 400px;">
+            <div class="image-heading">
+                <img src="ant.jpg" class="img-fluid" style="width:350px;height:220px;" alt="image">
+            </div>
+            <div class="card-content text-light mt-5">
+                <h1 class="card-title">ANT-MAN</h1>
+                <p class="card-text">SCOTT LANG</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="wolve.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">WOLVERINE</h1>
+                <p class="card-text">LOGAN</p>
+            </div>
+        </div>
+       <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="ant.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">DEADPOOL</h1>
+                <p class="card-text">THE ANTI-HERO</p>
+            </div>
+        </div>
+        <div class="col-6 col-md-2 bg-dark" style="height: 400px;">
+            <div class="image-heading">
+                <img src="thing.jpg" class="img-fluid" style="width:350px;height:220px;"  alt="image">
+            </div>
+            <div class="card-content text-light">
+                <h1 class="card-title">THE THING</h1>
+                <p class="card-text">BENJAMIN</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-secondary mt-5 text-light">
+    <div class="col-3-md d-flex justify-content-between ">
+        <div class="row">
+            <img src="comics.jpg" class="img-fluid rounded mt-2" style="width: 200px; height: 200px;" alt="image">
+            <ul class="col-md-2  list-unstyled lh-lg mt-3">
+                <li class="text-item"><a class="text-link" href="#">ABOUT COMICS</a></li>
+                <li class="text-item"><a class="text-link" href="#">HELP</a></li>
+                <li class="text-item"><a class="text-link" href="#">FAQS</a></li>
+                <li class="text-item"><a class="text-link" href="#">CARRERS</a></li>
+                <li class="text-item"><a class="text-link" href="#">INTERNSHIPS</a></li>
+            </ul>
+            <ul class="col-md-3  list-unstyled lh-lg mt-3">
+                <li class="text-item"><a class="text-link">ADVERTISE</a></li>
+                <li class="text-item"><a class="text-link">SONY LIV</a></li>
+                <li class="text-item"><a class="text-link">DISNEY+</a></li>
+                <li class="text-item"><a class="text-link">COMICSOG.COM</a></li>
+                <li class="text-item"><a class="text-link">REEDEM DIGITAL COMICS</a></li>
+            </ul>
+            <ul class="col-md-3 text-center lh-lg mt-3">
+                <img src="logo.jpg" class="img-fluid rounded" style="height:60px;" alt="image">
+                <h1 class="text-title">COMICS PRIVATE LIMITED</h1>
+                <p class="text-content">Access over 50,000+ Digital Comics</p>
+            </ul>
+            <ul class="col-md-2 text-center lh-lg mt-5">
+                <h1 class="footer-title">FOLLOR OUR PAGES</h1>
+                <span class="text-content">ⓕ</span>
+                <span class="text-content">🅾</span>
+                <span class="text-content">𝕏</span>
+                <span class="text-content">▶</span>
+                <span class="text-content">【ꚠ】</span>
+                <span class="text-content">🗫</span>          
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <ul class="footer-bottom text-center border-top ">
+                <p class="bottom-content">Term of Use | Privacy Policy | License aggrement</p>
+                <p class="bottom-content">@2026COMICS</p>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
